@@ -35,6 +35,7 @@ public class PPFEquableItemsView: UIView {
         super.init(frame: frame)
     }
     
+    /// 要正常显示数据,必须先调用这个方法
     public func reloadDataSources() {
         initializeUIs()
         initializeConstraints()
@@ -43,7 +44,7 @@ public class PPFEquableItemsView: UIView {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+    /// 初始化UIs
     private func initializeUIs() {
         subviews.forEach(){
             $0.removeFromSuperview()
@@ -54,7 +55,7 @@ public class PPFEquableItemsView: UIView {
             self.addSubview(v)
         }
     }
-    
+    /// 初始始约束
     private func initializeConstraints(){
         subviews.forEach(){
             $0.removeConstraints($0.constraints)

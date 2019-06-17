@@ -26,8 +26,6 @@ class ViewController: UIViewController {
             return v
         }()
         first.reloadDataSources()
-        first.reloadDataSources()
-        first.reloadDataSources()
         
         second = {
             let v = PPFEquableItemsView(frame: CGRect(x: 10, y: 160, width: 200, height: 100), direction: .vertical, dataSource: self, itemsSpace: 2)
