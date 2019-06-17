@@ -1,7 +1,7 @@
 # PPFEquableItemView
 
 ## 效果
-
+![效果图](https://upload-images.jianshu.io/upload_images/2261768-3b5c9ff95dcd1c0f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 引入
 
