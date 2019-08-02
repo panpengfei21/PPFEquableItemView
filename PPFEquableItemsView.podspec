@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PPFEquableItemsView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "一个view划分成相等的等份."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
 
   # spec.platform     = :ios
    spec.platform     = :ios, "9.0"
-   spec.swift_version = "5.1"
+   spec.swift_version = "5.0"
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
