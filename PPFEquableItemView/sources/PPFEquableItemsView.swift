@@ -56,11 +56,7 @@ public class PPFEquableItemsView: UIView {
         }
     }
     /// 初始始约束
-    private func initializeConstraints(){
-        subviews.forEach(){
-            $0.removeConstraints($0.constraints)
-        }
-        
+    private func initializeConstraints(){        
         for i in 0 ..< subviews.count {
             let v = subviews[i]
             switch direction {
