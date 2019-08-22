@@ -7,7 +7,7 @@
 
 ```
   1.cocoapods
-    pod 'PPFEquableItemsView', '~> 0.0.1'
+    pod 'PPFEquableItemsView'
   2.直接拷贝
     PPFEquableItemsView.swift
 ```
